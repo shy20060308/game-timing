@@ -1725,3 +1725,5 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.03.09-02.02.11:211][501]SourceControl: 已提交 [main 2e10f69] 上传测试。
 [2025.03.09-02.02.14:434][645]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
 [2025.03.09-02.02.14:439][645]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.024
+[2025.03.09-02.12.14:772][358]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.03.09-02.12.14:775][358]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.013
