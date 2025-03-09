@@ -1727,3 +1727,59 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.03.09-02.02.14:439][645]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.024
 [2025.03.09-02.12.14:772][358]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
 [2025.03.09-02.12.14:775][358]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.013
+[2025.03.09-02.16.28:283][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.03.09-02.16.28:332][828]LogStall: Shutdown...
+[2025.03.09-02.16.28:339][828]LogStall: Shutdown complete.
+[2025.03.09-02.16.28:410][828]LogSlate: Window '消息日志' being destroyed
+[2025.03.09-02.16.28:416][828]LogSlate: Window '我的项目 - 虚幻编辑器' being destroyed
+[2025.03.09-02.16.28:420][828]LogWindowsTextInputMethodSystem: Activated input method: 简体中文(中国大陆) - 微软拼音 (TSF IME).
+[2025.03.09-02.16.28:580][829]Cmd: QUIT_EDITOR
+[2025.03.09-02.16.28:580][829]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.03.09-02.16.28:603][829]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.03.09-02.16.28:604][829]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.03.09-02.16.28:605][829]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.03.09-02.16.28:607][829]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.09-02.16.28:607][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.09-02.16.28:607][829]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.03.09-02.16.28:608][829]LogContentBundle: [ThirdPersonMap(独立)] Deleting container.
+[2025.03.09-02.16.28:608][829]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.03.09-02.16.28:608][829]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.03.09-02.16.28:636][829]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.03.09-02.16.28:651][829]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.03.09-02.16.28:651][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.09-02.16.28:651][829]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.03.09-02.16.28:651][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.09-02.16.28:836][829]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.03.09-02.16.28:852][829]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.03.09-02.16.28:852][829]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.03.09-02.16.28:852][829]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.03.09-02.16.28:856][829]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.03.09-02.16.28:856][829]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.03.09-02.16.28:856][829]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2025.03.09-02.16.28:856][829]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.03.09-02.16.28:860][829]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.09-02.16.28:864][829]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.09-02.16.28:876][829]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.03.09-02.16.28:876][829]LogAudio: Display: Audio Device Manager Shutdown
+[2025.03.09-02.16.28:895][829]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.03.09-02.16.28:896][829]LogExit: Preparing to exit.
+[2025.03.09-02.16.28:961][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.03.09-02.16.29:804][829]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.03.09-02.16.29:858][829]LogExit: Editor shut down
+[2025.03.09-02.16.29:865][829]LogExit: Transaction tracking system shut down
+[2025.03.09-02.16.30:369][829]LogExit: Object subsystem successfully closed.
+[2025.03.09-02.16.30:432][829]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.03.09-02.16.31:107][829]MemoryProfiler: Shutdown
+[2025.03.09-02.16.31:108][829]NetworkingProfiler: Shutdown
+[2025.03.09-02.16.31:108][829]LoadingProfiler: Shutdown
+[2025.03.09-02.16.31:108][829]TimingProfiler: Shutdown
+[2025.03.09-02.16.31:372][829]LogOpenImageDenoise: OIDN shutting down
+[2025.03.09-02.16.31:801][829]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.03.09-02.16.31:837][829]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.03.09-02.16.31:837][829]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6A1BD4FB-4654-462F-3D4A-5DB58A4FCB49%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.4-35576357%2B%2B%2BUE5%2BRelease-5.4&UserID=14506e0646231a52d25bc0969f8c4999%7C4b65e45eadf145b1a7b13b8499902b17%7C2c3d8ba1-46a6-46c0-b14b-6615d962c84f&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.03.09-02.16.31:863][829]RenderDocPlugin: plugin has been unloaded.
+[2025.03.09-02.16.31:869][829]LogXGEController: Cleaning working directory: C:/Users/shy20/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.03.09-02.16.31:882][829]LogPakFile: Destroying PakPlatformFile
+[2025.03.09-02.16.32:140][829]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.03.09-02.16.32:206][829]LogExit: Exiting.
+[2025.03.09-02.16.32:250][829]Log file closed, 03/09/25 10:16:32
