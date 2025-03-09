@@ -1,1 +1,5 @@
 game/Saved/SourceControl/UncontrolledChangelists.json
+*.log
+game/Saved/Telemetry/Telemetry.json
+game/Saved/Logs/我的项目.log
+game/Saved/Telemetry/Telemetry.json
